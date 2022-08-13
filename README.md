@@ -10,9 +10,19 @@ BigInt num3 = num2 + num1;<br> cout << "num1 = " << num1 << endl;<br>
 </strong>
  
 ### Functions:
-- Design the class BigInt that has the following public interface (set of operations available
+<ol>
+<li>Design the class BigInt that has the following public interface (set of operations available
 to use by developers using the class)<br>
-<strong> BigInt (string decStr); // Initialize from string and rejects bad input<br> BigInt (int decInt); // Initialize from integer<br>BigInt operator+ (BigInt anotherDec);<br> BigInt operator= (BigInt anotherDec);<br> Int size();<br></strong> You will also need to overwrite the << operator as follows:<br> <strong>friend ostream& operator << (ostream& out, BigInt b)<br></strong> Using data encapsulation, you are free to store the digits of the big decimal integer in whatever container you like. You might store them in an array, a vector, a string or whatever. These are details that are not important to the user of your class. You will need to build + and – operations that work on the representation you chose.<br>
+<strong> BigInt (string decStr); // Initialize from string and rejects bad input<br>
+BigInt (int decInt); // Initialize from integer<br>
+BigInt operator+ (BigInt anotherDec);<br>
+BigInt operator= (BigInt anotherDec);<br> 
+Int size();<br>
+</strong>
+You will also need to overwrite the << operator as follows:<br> 
+<strong>friend ostream& operator << (ostream& out, BigInt b)<br></strong>
+
+Using data encapsulation, you are free to store the digits of the big decimal integer in whatever container you like. You might store them in an array, a vector, a string or whatever. These are details that are not important to the user of your class. You will need to build + and – operations that work on the representation you chose.<br>
 
 - Implement the class BigInt and write five test cases (including –ve numbers) to test it.
 Implement a program that runs the test cases and verifies the result.
