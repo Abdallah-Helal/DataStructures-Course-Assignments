@@ -2,16 +2,11 @@
 
 # Problem 1 
 ## Description:
-Different variations of types int and float exist in C++ and other languages. They are usually limited by
-minimum and maximum values. Sometimes it is desired to have versions of these types with unlimited
-bounds. Java solves this problem by providing BigInteger and BigDecimal classes. In this problem it is
-required to develop a new C++ type (class) that can hold unlimited decimal integer values and performs
-arithmetic operations on them. You will develop in C++ a class, BigInt that supports writing
-statements with extremely long integer values like these:
-BigInt num1("123456789012345678901234567890");
-BigInt num2("113456789011345678901134567890");
-BigInt num3 = num2 + num1;
-cout << "num1 = " << num1 << endl;
+Different variations of types int and float exist in C++ and other languages. They are usually limited by minimum and maximum values. Sometimes it is desired to have versions of these types with unlimited bounds. Java solves this problem by providing BigInteger and BigDecimal classes. In this problem it is required to develop a new C++ type (class) that can hold unlimited decimal integer values and performs arithmetic operations on them. You will develop in C++ a class, BigInt that supports writing statements with extremely long integer values like these:
+BigInt num1("123456789012345678901234567890");<br>
+BigInt num2("113456789011345678901134567890");<br>
+BigInt num3 = num2 + num1;<br>
+cout << "num1 = " << num1 << endl;<br>
  
 ### Functions:
 - Design the class BigInt that has the following public interface (set of operations available
