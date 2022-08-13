@@ -99,15 +99,15 @@ You will develop an application for performing operations on strings.
 <ul>First, develop a class StudentName that represents your full name and has only a variable name of type string
 <li>Your class should contain a constructor that takes a string from user. The input string should contain at least 2 spaces. If the user violates this rule, you should copy the last name many times to make the names variable a name with 2 spaces.<br>e.g., “ahmed Mohamed sayed”➔ “ahmed Mohamed sayed”<br> “sara ahmed” ➔ “sara ahmed ahmed”<br> “Khaled” ➔ “ khled Khaled Khaled”<br> “aya ali ahmed sayed” ➔ “ aya ali ahmed sayed”<br>
 
-<li>Add a function print that prints the detailed parts of the name each in one line.<br>detailed parts of the name are:<br>
+<li>Add a function print that prints the detailed parts of the name each in one line.<br><strong>detailed parts of the name are:<br>
 1) aya<br>
 2) ali<br>
 3) ahmed<br>
-4) sayed<br>
-<li>Add function replace(int i,int j) that replaces the name at position I with the name at position j and return true if operation is valid and false if one of the two indices is out of range.<br>e.g., “ahmed hassan ali”<br>
+4) sayed</strong><br><br>
+<li>Add function replace(int i,int j) that replaces the name at position I with the name at position j and return true if operation is valid and false if one of the two indices is out of range.<br><br><strong>e.g., “ahmed hassan ali”<br>
 replace(1,2) ➔ true ➔ “Hassan ahmed ali”<br>
 replace(3,1) ➔ true ➔ “ali Hassan ahmed”<br>
-replace(2,4) ➔ false<br>
+replace(2,4) ➔ false</strong><br><br>
 <li>Write a main function and 5 test cases with different names. For each test case you should call the replace function and the print function to check the effect of the replacement if valid.
 </ul>
 
