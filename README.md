@@ -29,3 +29,81 @@ Using data encapsulation, you are free to store the digits of the big decimal in
 
 <li>Implement the class BigInt and write five test cases (including –ve numbers) to test it.
 Implement a program that runs the test cases and verifies the result.
+</ul>
+
+
+# Problem 2 
+## Description:
+You will develop an application for performing calculations on fractions.
+
+### Functions:
+<ul>
+<li>First, develop a class Fraction that represents a fraction by one integer divided by 
+another, e.g.,1/3 or 3/7.
+  <ul>
+  <li>This class defines adding, subtracting, multiplying, dividing and comparing (<, >, ==, <=
+  and >=) fractions by overloading the standard operators for these operations.
+
+  <li>It should also contain a function for reducing fractions. For example 2/6 is reduced after
+  calling the function to 1/3, etc
+
+  <li>You also need to overload I/O operators to be able to input and output fractions
+  naturally
+  using >> and << operators.
+
+  </ul>
+
+<li>Separate class specifications from implementation by creating Fraction.h for specs and
+Fraction.cpp for implementation.
+
+<li>Second, develop a class FractionCalculator that utilizes the class Fraction and allows the user to input a fraction and perform calculations by adding, subtracting, etc. another fraction and then keeping the result as a fraction for further calculations.
+</ul>
+
+# Problem 3 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 4 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 5 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 6 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 7 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 8 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+
+# Problem 9 
+## Description:
+### Functions:
+<ul>
+</ul>
+
+# Problem 10 
+## Description:
+### Functions:
+<ul>
+</ul>
