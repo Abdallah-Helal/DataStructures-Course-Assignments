@@ -78,7 +78,7 @@ the dimensions decided by the user.
   
  <li>Overload standard operators and I/O operators to enable Matrix class with addition, subtraction and multiplication and suitable input and output capabilities. Add a method for matrix transpose.
   
- <li>Then develop a <strong>MatrixCalculator </strong>class which offers the user a menu of operations to perform on int matrices as follows. Each of these options should be able to accept matrices of varying dimensions, which the user inputs. For multiplication, the calculator should check that two matrices are of dimensions n x m and m x p.<br><br>Welcome to (Your Name) Matrix Calculator<hr><br>
+ <li>Then develop a <strong>MatrixCalculator </strong>class which offers the user a menu of operations to perform on int matrices as follows. Each of these options should be able to accept matrices of varying dimensions, which the user inputs. For multiplication, the calculator should check that two matrices are of dimensions n x m and m x p.<br><br>Welcome to (Your Name) Matrix Calculator<hr>
 1- Perform Matrix Addition<br>
 2- Perform Matrix Subtraction<br>
 3- Perform Matrix Multiplication<br>
@@ -88,9 +88,8 @@ the dimensions decided by the user.
 
 # Problem 4 
 ## Description:
-### Functions:
-<ul>
-</ul>
+   The given function ListPermutations below prints all the permutations of a given string. It is required to modify this function so that it only prints unique strings. The current function will do exhaustive recursion to calculate all permutations. So, if the given string has duplicate characters, the output will have duplicate words. For example, if it is given the string “Makka”, it will print “Mkkaa” four times. Try this function and see how it works.<br>
+
 
 # Problem 5 
 ## Description:
@@ -106,9 +105,8 @@ the dimensions decided by the user.
 
 # Problem 7 
 ## Description:
-### Functions:
-<ul>
-</ul>
+If you have a list of songs in a music library and want to sort this list alphabetically. However, you want songs with the title “Untitled” to always appear at the top. Write a function called BiasedSort that accepts a vector by reference and sorts the songs according to the explained rules above.
+
 
 # Problem 8 
 ## Description:
