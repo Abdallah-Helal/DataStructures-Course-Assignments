@@ -61,8 +61,22 @@ Fraction.cpp for implementation.
 
 # Problem 3 
 ## Description:
+   You will develop an application for matrix calculations.
+
 ### Functions:
 <ul>
+ <li>It is required to design and implement a generic class Matrix, in the form of a class template that accepts a type parameter. This way, when the class Matrix is instantiated, we decide if it should accept float, int or double, etc
+ <li>Matrix class holds a matrix of any size and allocates the required memory as needed.
+ <li>Matrix class should have a destructor that frees used memory at the end of lifetime of each Matrix objects.
+ <li>Matrix class specifications should be in a separate header “.h” file. 
+ <li>It should have a pointer-to-pointer attribute that points to the matrix content. It should 
+havesuitable constructors and methods for allocating the required memory space based on 
+the dimensions decided by the user
+  
+ <li>Overload standard operators and I/O operators to enable Matrix class with addition, subtraction and multiplication and suitable input and output capabilities. Add a method for matrix transpose
+  
+ <li>Then develop a <strong>MatrixCalculator </strong>class which offers the user a menu of operations to perform on int matrices as follows. Each of these options should be able to accept matrices of varying dimensions, which the user inputs. For multiplication, the calculator should check that two matrices are of dimensions n x m and m x p.
+  
 </ul>
 
 # Problem 4 
