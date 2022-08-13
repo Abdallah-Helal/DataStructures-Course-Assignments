@@ -98,9 +98,25 @@ the dimensions decided by the user.
 </ul>
 
 # Problem 6 
-## Description:
+## Description:Write a program that handles an address book program, to process the following functions
+   
 ### Functions:
 <ul>
+ <li>First, write a class called PhoneDirectory. Add a first name, last name and phone number entry as a private.
+ <li>The main program uses a simple text-based interface to give the user access to the directory. In a while loop, the program presents the user with a menu of options:
+  <ol>
+   <li>Add an entry to the directory
+   <li>Look up a phone number
+   <li>Look up a phone number
+   <li> Delete an entry from the directory
+   <li>List All entries in phone directory
+   <li>Exit form this program
+  </ol>
+ <li>Delete an entry by first name.
+ <li>List the directory in alphabetical order by first name.
+ <li>Use at least 3 sorting techniques for points 3 & 4, to perform time analysis on these different algorithms.
+ <li>Lookup an entry by first name.
+ <li>Lookup an entry by phone number.
 </ul>
 
 # Problem 7 
