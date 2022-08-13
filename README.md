@@ -93,8 +93,21 @@ the dimensions decided by the user.
 
 # Problem 5 
 ## Description:
+You will develop an application for performing operations on strings.
+
 ### Functions:
-<ul>
+<ul>First, develop a class StudentName that represents your full name and has only a variable name of type string
+<li>Your class should contain a constructor that takes a string from user. The input string should contain at least 2 spaces. If the user violates this rule, you should copy the last name many times to make the names variable a name with 2 spaces.<br>e.g., “ahmed Mohamed sayed”➔ “ahmed Mohamed sayed”<br> “sara ahmed” ➔ “sara ahmed ahmed”<br> “Khaled” ➔ “ khled Khaled Khaled”<br> “aya ali ahmed sayed” ➔ “ aya ali ahmed sayed”<br>
+
+<li>Add a function print that prints the detailed parts of the name each in one line.<br>detailed parts of the name are:<br>
+1) aya<br>
+2) ali<br>
+3) ahmed<br>
+4) sayed<br>
+<li>
+<li>
+<li>
+<li>
 </ul>
 
 # Problem 6 
