@@ -78,7 +78,7 @@ the dimensions decided by the user.
   
  <li>Overload standard operators and I/O operators to enable Matrix class with addition, subtraction and multiplication and suitable input and output capabilities. Add a method for matrix transpose.
   
- <li>Then develop a <strong>MatrixCalculator </strong>class which offers the user a menu of operations to perform on int matrices as follows. Each of these options should be able to accept matrices of varying dimensions, which the user inputs. For multiplication, the calculator should check that two matrices are of dimensions n x m and m x p.<br>Welcome to (Your Name) Matrix Calculator<hr><br>
+ <li>Then develop a <strong>MatrixCalculator </strong>class which offers the user a menu of operations to perform on int matrices as follows. Each of these options should be able to accept matrices of varying dimensions, which the user inputs. For multiplication, the calculator should check that two matrices are of dimensions n x m and m x p.<br><br>Welcome to (Your Name) Matrix Calculator<hr><br>
 1- Perform Matrix Addition<br>
 2- Perform Matrix Subtraction<br>
 3- Perform Matrix Multiplication<br>
