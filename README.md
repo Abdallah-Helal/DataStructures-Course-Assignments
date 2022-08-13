@@ -12,7 +12,8 @@ BigInt num3 = num2 + num1;<br> cout << "num1 = " << num1 << endl;<br>
 ### Functions:
 <ul>
 <li>Design the class BigInt that has the following public interface (set of operations available
-to use by developers using the class)<br>
+to use by developers using the class):<br>
+
 <strong> BigInt (string decStr); // Initialize from string and rejects bad input<br>
 BigInt (int decInt); // Initialize from integer<br>
 BigInt operator+ (BigInt anotherDec);<br>
