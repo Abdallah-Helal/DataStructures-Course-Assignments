@@ -98,7 +98,8 @@ the dimensions decided by the user.
 </ul>
 
 # Problem 6 
-## Description:Write a program that handles an address book program, to process the following functions
+## Description:
+   Write a program that handles an address book program, to process the following functions
    
 ### Functions:
 <ul>
