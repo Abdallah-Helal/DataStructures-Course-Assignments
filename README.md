@@ -104,10 +104,11 @@ You will develop an application for performing operations on strings.
 2) ali<br>
 3) ahmed<br>
 4) sayed<br>
-<li>
-<li>
-<li>
-<li>
+<li>Add function replace(int i,int j) that replaces the name at position I with the name at position j and return true if operation is valid and false if one of the two indices is out of range.<br>e.g., “ahmed hassan ali”<br>
+replace(1,2) ➔ true ➔ “Hassan ahmed ali”<br>
+replace(3,1) ➔ true ➔ “ali Hassan ahmed”<br>
+replace(2,4) ➔ false<br>
+<li>Write a main function and 5 test cases with different names. For each test case you should call the replace function and the print function to check the effect of the replacement if valid.
 </ul>
 
 # Problem 6 
