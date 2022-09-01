@@ -152,8 +152,4 @@ shifting item by item, it will compare quickly using binary search but it will s
 </ul>
 
 
-# Problem 9 
-## Description:
-### Functions:
-<ul>
-</ul>
+
