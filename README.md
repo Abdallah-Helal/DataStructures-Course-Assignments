@@ -158,7 +158,7 @@ shifting item by item, it will compare quickly using binary search but it will s
 and Quick sort). The class will have methods to support experimenting and analyzing sorting
 algorithms performance. Below is a high-level UML diagram for your classes. Add any
 missing details. Testbed class has the following functions that you should complete:<br>
- <img src="./images/img-p9.jpg" alt="" style ="display:block">
+ <img src="images/img-p9.png" alt="" style ="display:block">
 
 ### Functions:
 <ul>
