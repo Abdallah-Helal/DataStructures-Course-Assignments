@@ -152,4 +152,16 @@ shifting item by item, it will compare quickly using binary search but it will s
 </ul>
 
 
+# Problem 9 
+## Description:
+   In this problem, we will develop classes to use for testing two sorting algorithms (Selection
+and Quick sort). The class will have methods to support experimenting and analyzing sorting
+algorithms performance. Below is a high-level UML diagram for your classes. Add any
+missing details. Testbed class has the following functions that you should complete:<br>
+ <img src="images/img-p9.jpg" alt="" width="500" height="600" style ="display:block">
+
+### Functions:
+<ul>
+ <li>
+</ul>
 
