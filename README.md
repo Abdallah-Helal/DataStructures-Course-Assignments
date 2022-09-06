@@ -174,21 +174,23 @@ missing details. Testbed class has the following functions that you should compl
    <li>RunExperient (sorter, type, min, max, min_val, max_val, sets_num, step) Develop
 an experiment to run a given sorting algorithm and calculate its performance on sets
 of different sizes (e.g., data of size 10000, 20000, etc.) as follows:
-<hr>
-   1- All sets are generated with values between min and max<br>
-   2- First, generate sets_num sets with size min_val. Use RunAndAverage () and
+<hr><ul>
+    <li>All sets are generated with values between min and max<br>
+    <li>First, generate sets_num sets with size min_val. Use RunAndAverage () and
 record average time to process the sets<br>
-   3- Next, repeat step ii but with sets whose size increases by step till reaching
+    <li>Next, repeat step ii but with sets whose size increases by step till reaching
 max_val. Each time record average time to process the sets
 <br>
-   4- For example I should be able to design an experiment to run Quick sort
+   <li>For example I should be able to design an experiment to run Quick sort
 algorithm on randomly sorted integers data taken from the range (1 to
 1,100,000) and with input value (data size) from 0 to 100000, with step 5000.
 This means we will run the algorithms on data sets of 5000, 10000, 15000, …,
 100000 randomly sorted integers. Note that with each step you will generate
 sets_num different sets and take the average of their runs<br>
-    5-The output of the experiment goes to screen as a table with two columns; first
+    <li>The output of the experiment goes to screen as a table with two columns; first
 column indicates set size, and second column indicates average time<br>
+   </ul>
+</ul>
   
 Write a main() demo to show that the function works correctly and to measure the performance of Quick sort and Selection sort in cases of random data and reverse ordered data using Testbed class.
 
