@@ -171,10 +171,11 @@ missing details. Testbed class has the following functions that you should compl
   
  <li><strong>RunAndAverage(sorter, type, min, max, size, sets_num)</strong> Run a given sorting algorithm on several sets of data of the same length and same attributes (from the same range and equally sorted; e.g., random or reversed) and calculate the average time. 
  
-   <li>RunExperient (sorter, type, min, max, min_val, max_val, sets_num, step) Develop
+   <li><strong>RunExperient (sorter, type, min, max, min_val, max_val, sets_num, step) </strong>Develop
 an experiment to run a given sorting algorithm and calculate its performance on sets
 of different sizes (e.g., data of size 10000, 20000, etc.) as follows:
-<hr><ul>
+<hr>
+    <ol>
     <li>All sets are generated with values between min and max<br>
     <li>First, generate sets_num sets with size min_val. Use RunAndAverage () and
 record average time to process the sets<br>
@@ -189,7 +190,7 @@ This means we will run the algorithms on data sets of 5000, 10000, 15000, …,
 sets_num different sets and take the average of their runs<br>
     <li>The output of the experiment goes to screen as a table with two columns; first
 column indicates set size, and second column indicates average time<br>
-   </ul>
+   </ol>
 </ul>
   
 Write a main() demo to show that the function works correctly and to measure the performance of Quick sort and Selection sort in cases of random data and reverse ordered data using Testbed class.
