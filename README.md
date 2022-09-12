@@ -226,12 +226,12 @@ class iterator {<br>
 // your code for the list class here<br>
 };<br>
 </div>
+ 
 <strong>Your list class should be a template class.
 The list class should have the following public interface:</strong>
+ 
 ### Functions:
-<ul>
- <li>
-</ul>
+
 
 
 
