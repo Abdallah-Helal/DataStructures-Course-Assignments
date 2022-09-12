@@ -206,7 +206,7 @@ the list. For example, if we have a list of three elements, and want to access t
 we should declare an iterator and initialize it to the position of the first element, and move to the
 second position as shown in the code below:<br>
  <br>
-<div >
+<div ><strong>
 list<int> myList;<br>
 myList.push_back(1);<br>
 myList.push_back(2);<br>
@@ -214,12 +214,13 @@ myList.push_back(3);<br>
 list<int>::iterator it = myList.begin();<br>
 it++;<br>
 cout<< *it;<br>
-</div>
+</strong></div>
  <br>
  <br>
-<strong>notice the usage of the scope operator in the declaration of the iterator, this is because the
-iterator class is defined as an inner class inside the list class:</strong><br>
-<div>
+notice the usage of the scope operator in the declaration of the iterator, this is because the
+iterator class is defined as an inner class inside the list class:<br>
+ 
+<div><strong>
 template<class type><br>
 class myList {<br>
 public:<br>
@@ -228,10 +229,11 @@ class iterator {<br>
 };<br>
 // your code for the list class here<br>
 };<br>
-</div>
+</strong></div>
  <br>
-<strong>Your list class should be a template class.<br>
-The list class should have the following public interface:</strong><br>
+ <br>
+Your list class should be a template class.<br>
+The list class should have the following public interface:<br>
  
 ### Functions:
 
