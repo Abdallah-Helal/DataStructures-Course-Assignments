@@ -197,4 +197,42 @@ Write a main() demo to show that the function works correctly and to measure the
 
 </ul>
 
+# Problem 10 
+## Description:
+  In this problem, you should develop a linked list class similar to that provided in the C++ STL.
+The public interface of your class should provide basic insertion and deletion functions. In
+addition, it should provide an iterator class as an inner class in order to access the data stored in
+the list. For example, if we have a list of three elements, and want to access the second element,
+we should declare an iterator and initialize it to the position of the first element, and move to the
+second position as shown in the code below:
+<div >
+list<int> myList;<br>
+myList.push_back(1);<br>
+myList.push_back(2);<br>
+myList.push_back(3);<br>
+list<int>::iterator it = myList.begin();<br>
+it++;<br>
+cout<< *it;<br>
+</div>
+<strong>notice the usage of the scope operator in the declaration of the iterator, this is because the
+iterator class is defined as an inner class inside the list class:</strong>
+<div>
+template<class type><br>
+class myList {<br>
+public:<br>
+class iterator {<br>
+// your code for the iterator class here<br>
+};<br>
+// your code for the list class here<br>
+};<br>
+</div>
+<strong>Your list class should be a template class.
+The list class should have the following public interface:</strong>
+### Functions:
+<ul>
+ <li>
+</ul>
+
+
+
 
