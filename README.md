@@ -246,10 +246,10 @@ The list class should have the following public interface:<br>
  <li>iterator erase(iterator position) – erases the element specified by the iterator and return an iterator to the next element, throws exception if position points after the last element.
 
  <li>list<type>& operator = (list<type> another_list) – overloads the assignment operator to deep copy a list into another list and return the current list by reference. 
- <li>• iterator begin() – returns an iterator pointing to the first element.
+ <li> iterator begin() – returns an iterator pointing to the first element.
  <li> iterator end() – returns an iterator pointing after the last element.
   <p><strong>You should develop an iterator class the following public interface:</strong><p>
- <li>• void operator ++ () – overloads the operator ++, it should advance the iterator one position towards the end of the list, throws exception if it is currently pointing after the last element
+ <li>void operator ++ () – overloads the operator ++, it should advance the iterator one position towards the end of the list, throws exception if it is currently pointing after the last element
   
   <li>void operator -- () – overloads the operator --, it should move the iterator one
      position toward the beginning of the list, throws exception if it is currently pointing        to the  first element of the list.
