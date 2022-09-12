@@ -205,6 +205,7 @@ addition, it should provide an iterator class as an inner class in order to acce
 the list. For example, if we have a list of three elements, and want to access the second element,
 we should declare an iterator and initialize it to the position of the first element, and move to the
 second position as shown in the code below:<br>
+ <br>
 <div >
 list<int> myList;<br>
 myList.push_back(1);<br>
@@ -214,6 +215,8 @@ list<int>::iterator it = myList.begin();<br>
 it++;<br>
 cout<< *it;<br>
 </div>
+ <br>
+ <br>
 <strong>notice the usage of the scope operator in the declaration of the iterator, this is because the
 iterator class is defined as an inner class inside the list class:</strong><br>
 <div>
@@ -226,7 +229,7 @@ class iterator {<br>
 // your code for the list class here<br>
 };<br>
 </div>
- 
+ <br>
 <strong>Your list class should be a template class.<br>
 The list class should have the following public interface:</strong><br>
  
