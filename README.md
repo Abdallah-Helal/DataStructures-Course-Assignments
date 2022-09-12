@@ -255,7 +255,7 @@ The list class should have the following public interface:<br>
      position toward the beginning of the list, throws exception if it is currently pointing        to the  first element of the list.
    <li>type& operator * () – overloads the dereference operator to return the value contained       in the current node by refence to allow its modification.
    <li>bool operator == (const iterator &) – overloads the equality comparison operator,     should return true if the passed operator points to the same node. All node pointers in the   list class of the iterator class should be private and inaccessible from outside of the class
-   <li>
+ 
 </ul>
 
 
