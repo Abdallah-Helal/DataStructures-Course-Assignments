@@ -219,7 +219,7 @@ cout<< *it;<br>
  <br>
 notice the usage of the scope operator in the declaration of the iterator, this is because the
 iterator class is defined as an inner class inside the list class:<br>
- 
+ <br>
 <div><strong>
 template<class type><br>
 class myList {<br>
