@@ -237,7 +237,26 @@ The list class should have the following public interface:<br>
  
 ### Functions:
 
+<ul>
+ <li>list() – default constructor. 
+ <li>list(type value, int initial_size) – constructs a list having ‘initial_size’ elements whose values are ‘value’. 
+ <li>~list() – a destructor to clear the list and leave no memory leaks.
+ <li>int size() – returns the current number of elements in the list.
+ <li>void insert(type value, iterator position) – adds an element at position specified by the iterator. For example, if the passed iterator currently points to the second element, this element will be shifted on position, and the new value should be added at the second position.
+ <li>iterator erase(iterator position) – erases the element specified by the iterator and return an iterator to the next element, throws exception if position points after the last element.
 
+ <li>list<type>& operator = (list<type> another_list) – overloads the assignment operator to deep copy a list into another list and return the current list by reference. 
+ <li>• iterator begin() – returns an iterator pointing to the first element.
+ <li> iterator end() – returns an iterator pointing after the last element.
+  <p><strong>You should develop an iterator class the following public interface:</strong><p>
+ <li>• void operator ++ () – overloads the operator ++, it should advance the iterator one position towards the end of the list, throws exception if it is currently pointing after the last element
+  
+  <li>void operator -- () – overloads the operator --, it should move the iterator one
+     position toward the beginning of the list, throws exception if it is currently pointing        to the  first element of the list.
+   <li>type& operator * () – overloads the dereference operator to return the value contained       in the current node by refence to allow its modification.
+   <li>bool operator == (const iterator &) – overloads the equality comparison operator,     should return true if the passed operator points to the same node. All node pointers in the   list class of the iterator class should be private and inaccessible from outside of the class
+   <li>
+</ul>
 
 
 
